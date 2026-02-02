@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <!-- ===========================================
         FUNERARIA LA CANDELARIA
@@ -11,35 +12,40 @@
         - Estilos CSS externos
         - JavaScript modular
         =========================================== -->
-    
-    <!-- Meta tags básicos para SEO -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Casa De Funeraria La Candelaria - Servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual. Velación, cremación, traslados y planes exequiales.">
-    <meta name="keywords" content="funeraria, servicios funerarios, velación, cremación, traslados, planes exequiales, Colombia, La Candelaria">
-    <meta name="author" content="Casa De Funeraria La Candelaria">
-    <meta name="robots" content="index, follow">
-    
+
+    <!-- SEO Local -->
+    <meta name="geo.region" content="CO">
+    <meta name="geo.placename" content="Colombia">
+    <meta name="geo.position" content="7.8891;-72.4967">
+    <meta name="ICBM" content="7.8891, -72.4967">
+    <meta name="keywords"
+        content="funeraria en Colombia, servicios funerarios, planes exequiales, cremación, velación, traslados funerarios">
+    <meta name="author" content="Funeraria La Candelaria">
+
     <!-- Open Graph para redes sociales -->
     <meta property="og:title" content="Casa De Funeraria La Candelaria | Servicios Funerarios">
-    <meta property="og:description" content="Servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual.">
+    <meta property="og:description"
+        content="Servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_CO">
-    
+
     <!-- Color del tema para navegadores móviles -->
     <meta name="theme-color" content="#0B2C4D">
-    
+
     <!-- Título de la página -->
     <title>Casa De Funeraria La Candelaria | Servicios Funerarios con Respeto y Dignidad</title>
-    
+
     <!-- Fuentes de Google - Playfair Display para títulos, Roboto para texto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
     <!-- Hoja de estilos principal -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- ===========================================
         HEADER - Navegación Principal
@@ -59,20 +65,22 @@
                     <path d="M14 20H26" stroke="currentColor" stroke-width="1.5"/>
                     <path d="M12 36L20 32L28 36" stroke="currentColor" stroke-width="1.5" fill="none"/>
                 </svg> -->
-                <img src="/img/logo-virgen-removebg-preview.png" alt="imagen logo funeraria la candelaria" class="header__logo-icon">
+                <img src="/img/logo-virgen-removebg-preview.png" alt="imagen logo funeraria la candelaria"
+                    class="header__logo-icon">
                 <div class="header__logo-text">
                     <span class="header__logo-name">Casa De Funeraria</span>
                     <span class="header__logo-subtitle">La Candelaria</span>
                 </div>
             </a>
-            
+
             <!-- Botón menú móvil (hamburguesa) -->
-            <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+            <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación"
+                aria-expanded="false">
                 <span class="header__menu-bar"></span>
                 <span class="header__menu-bar"></span>
                 <span class="header__menu-bar"></span>
             </button>
-            
+
             <!-- Navegación principal -->
             <nav class="header__nav" id="mainNav" aria-label="Navegación principal">
                 <ul class="header__nav-list">
@@ -83,11 +91,13 @@
                     <li><a href="#contacto" class="header__nav-link">Contacto</a></li>
                 </ul>
             </nav>
-            
+
             <!-- Botón de contacto rápido (visible en desktop) -->
             <a href="#contacto" class="header__cta">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
                 Contactar
             </a>
@@ -103,7 +113,7 @@
     <section class="hero" id="inicio">
         <!-- Overlay oscuro para mejorar legibilidad -->
         <div class="hero__overlay"></div>
-        
+
         <div class="hero__container">
             <div class="hero__content">
                 <!-- Indicador de disponibilidad -->
@@ -111,25 +121,27 @@
                     <span class="hero__badge-dot"></span>
                     <span>Disponibles 24 horas, los 7 días</span>
                 </div>
-                
+
                 <!-- Título principal -->
                 <h1 class="hero__title">
                     En momentos difíciles,<br>
                     <span class="hero__title-accent">estamos a su lado</span>
                 </h1>
-                
+
                 <!-- Subtítulo descriptivo -->
                 <p class="hero__subtitle">
-                    Brindamos acompañamiento integral con respeto, dignidad y 
-                    profesionalismo. Más de 25 años cuidando de las familias 
+                    Brindamos acompañamiento integral con respeto, dignidad y
+                    profesionalismo. Más de 25 años cuidando de las familias
                     en sus momentos más delicados.
                 </p>
-                
+
                 <!-- Botones de acción -->
                 <div class="hero__actions">
                     <a href="#contacto" class="btn btn--primary">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" aria-hidden="true">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
                         Contactar Ahora
                     </a>
@@ -137,7 +149,7 @@
                         Conocer Servicios
                     </a>
                 </div>
-                
+
                 <!-- Estadísticas de confianza -->
                 <div class="hero__stats">
                     <div class="hero__stat">
@@ -155,12 +167,12 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Indicador de scroll -->
         <div class="hero__scroll-indicator" aria-hidden="true">
             <span>Desplazar</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 5v14M19 12l-7 7-7-7"/>
+                <path d="M12 5v14M19 12l-7 7-7-7" />
             </svg>
         </div>
     </section>
@@ -179,82 +191,87 @@
                     <span class="section-header__label">Nuestra Historia</span>
                     <h2 class="section-header__title">Quiénes Somos</h2>
                     <p class="section-header__description">
-                        Más de dos décadas brindando acompañamiento con fe, 
+                        Más de dos décadas brindando acompañamiento con fe,
                         respeto y profesionalismo a las familias de nuestra comunidad.
                     </p>
                 </header>
-                
+
                 <!-- Contenido principal -->
                 <div class="about__content">
                     <!-- Historia -->
                     <div class="about__story">
                         <div class="about__story-icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 6v6l4 2"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
                             </svg>
                         </div>
                         <h3 class="about__story-title">Nuestra Historia</h3>
                         <p class="about__story-text">
-                            Funeraria La Candelaria nació en 1998 como un proyecto familiar 
-                            inspirado en la devoción a la Virgen del Carmen, patrona de las 
-                            almas del purgatorio. Desde entonces, hemos acompañado a miles 
-                            de familias en sus momentos más difíciles, brindando un servicio 
+                            Funeraria La Candelaria nació en 1998 como un proyecto familiar
+                            inspirado en la devoción a la Virgen del Carmen, patrona de las
+                            almas del purgatorio. Desde entonces, hemos acompañado a miles
+                            de familias en sus momentos más difíciles, brindando un servicio
                             que combina profesionalismo con calidez humana y espiritual.
                         </p>
                         <p class="about__story-text">
-                            Nuestro equipo está conformado por profesionales capacitados que 
-                            entienden la importancia de cada detalle en estos momentos tan 
+                            Nuestro equipo está conformado por profesionales capacitados que
+                            entienden la importancia de cada detalle en estos momentos tan
                             significativos para las familias.
                         </p>
                     </div>
-                    
+
                     <!-- Misión, Visión, Valores -->
                     <div class="about__cards">
                         <!-- Misión -->
                         <article class="about__card">
                             <div class="about__card-icon about__card-icon--mission">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <circle cx="12" cy="12" r="6"/>
-                                    <circle cx="12" cy="12" r="2"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <circle cx="12" cy="12" r="6" />
+                                    <circle cx="12" cy="12" r="2" />
                                 </svg>
                             </div>
                             <h4 class="about__card-title">Misión</h4>
                             <p class="about__card-text">
-                                Brindar servicios funerarios integrales con excelencia, 
-                                respeto y dignidad, acompañando a las familias con 
+                                Brindar servicios funerarios integrales con excelencia,
+                                respeto y dignidad, acompañando a las familias con
                                 profesionalismo y calidez humana en sus momentos de duelo.
                             </p>
                         </article>
-                        
+
                         <!-- Visión -->
                         <article class="about__card">
                             <div class="about__card-icon about__card-icon--vision">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
-                                    <circle cx="12" cy="12" r="3"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
                                 </svg>
                             </div>
                             <h4 class="about__card-title">Visión</h4>
                             <p class="about__card-text">
-                                Ser reconocidos como la funeraria de mayor confianza y 
-                                calidad en la región, destacando por nuestro compromiso 
+                                Ser reconocidos como la funeraria de mayor confianza y
+                                calidad en la región, destacando por nuestro compromiso
                                 con el bienestar integral de las familias.
                             </p>
                         </article>
-                        
+
                         <!-- Valores -->
                         <article class="about__card">
                             <div class="about__card-icon about__card-icon--values">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
                                 </svg>
                             </div>
                             <h4 class="about__card-title">Valores</h4>
                             <p class="about__card-text">
-                                Respeto, empatía, honestidad, profesionalismo y 
-                                compromiso son los pilares que guían cada una de 
+                                Respeto, empatía, honestidad, profesionalismo y
+                                compromiso son los pilares que guían cada una de
                                 nuestras acciones y servicios.
                             </p>
                         </article>
@@ -275,25 +292,26 @@
                     <span class="section-header__label">Lo que ofrecemos</span>
                     <h2 class="section-header__title">Nuestros Servicios</h2>
                     <p class="section-header__description">
-                        Ofrecemos una gama completa de servicios funerarios diseñados 
+                        Ofrecemos una gama completa de servicios funerarios diseñados
                         para brindar tranquilidad y apoyo en cada paso del proceso.
                     </p>
                 </header>
-                
+
                 <!-- Grid de servicios -->
                 <div class="services__grid">
                     <!-- Servicio 1: Velación -->
                     <article class="service-card">
                         <div class="service-card__icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <path d="M12 2C12 2 8 6 8 10C8 14 12 22 12 22C12 22 16 14 16 10C16 6 12 2 12 2Z"/>
-                                <circle cx="12" cy="8" r="2"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <path d="M12 2C12 2 8 6 8 10C8 14 12 22 12 22C12 22 16 14 16 10C16 6 12 2 12 2Z" />
+                                <circle cx="12" cy="8" r="2" />
                             </svg>
                         </div>
                         <h3 class="service-card__title">Velación</h3>
                         <p class="service-card__description">
-                            Espacios dignos y acogedores para que las familias puedan 
-                            despedirse de sus seres queridos en un ambiente de paz y 
+                            Espacios dignos y acogedores para que las familias puedan
+                            despedirse de sus seres queridos en un ambiente de paz y
                             recogimiento espiritual.
                         </p>
                         <ul class="service-card__features">
@@ -302,21 +320,22 @@
                             <li>Servicio de cafetería</li>
                         </ul>
                     </article>
-                    
+
                     <!-- Servicio 2: Traslados -->
                     <article class="service-card">
                         <div class="service-card__icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <rect x="1" y="3" width="15" height="13" rx="2"/>
-                                <path d="M16 8h4l3 3v5h-7V8z"/>
-                                <circle cx="5.5" cy="18.5" r="2.5"/>
-                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <rect x="1" y="3" width="15" height="13" rx="2" />
+                                <path d="M16 8h4l3 3v5h-7V8z" />
+                                <circle cx="5.5" cy="18.5" r="2.5" />
+                                <circle cx="18.5" cy="18.5" r="2.5" />
                             </svg>
                         </div>
                         <h3 class="service-card__title">Traslados</h3>
                         <p class="service-card__description">
-                            Servicio de traslado nacional e internacional con vehículos 
-                            especializados, garantizando el máximo respeto y cuidado 
+                            Servicio de traslado nacional e internacional con vehículos
+                            especializados, garantizando el máximo respeto y cuidado
                             en todo momento.
                         </p>
                         <ul class="service-card__features">
@@ -325,19 +344,21 @@
                             <li>Disponibilidad 24/7</li>
                         </ul>
                     </article>
-                    
+
                     <!-- Servicio 3: Cremación -->
                     <article class="service-card">
                         <div class="service-card__icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
-                                <path d="M12 6V12L16 14"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" />
+                                <path d="M12 6V12L16 14" />
                             </svg>
                         </div>
                         <h3 class="service-card__title">Cremación</h3>
                         <p class="service-card__description">
-                            Proceso realizado con la mayor dignidad y respeto, 
-                            ofreciendo diferentes opciones de urnas y memoriales 
+                            Proceso realizado con la mayor dignidad y respeto,
+                            ofreciendo diferentes opciones de urnas y memoriales
                             para honrar la memoria del ser querido.
                         </p>
                         <ul class="service-card__features">
@@ -346,22 +367,24 @@
                             <li>Ceremonias personalizadas</li>
                         </ul>
                     </article>
-                    
+
                     <!-- Servicio 4: Asesoría Legal -->
                     <article class="service-card">
                         <div class="service-card__icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z"/>
-                                <path d="M14 2V8H20"/>
-                                <path d="M16 13H8"/>
-                                <path d="M16 17H8"/>
-                                <path d="M10 9H8"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <path
+                                    d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" />
+                                <path d="M14 2V8H20" />
+                                <path d="M16 13H8" />
+                                <path d="M16 17H8" />
+                                <path d="M10 9H8" />
                             </svg>
                         </div>
                         <h3 class="service-card__title">Asesoría Legal</h3>
                         <p class="service-card__description">
-                            Acompañamiento profesional en todos los trámites legales 
-                            necesarios, brindando tranquilidad a la familia en 
+                            Acompañamiento profesional en todos los trámites legales
+                            necesarios, brindando tranquilidad a la familia en
                             momentos difíciles.
                         </p>
                         <ul class="service-card__features">
@@ -370,20 +393,21 @@
                             <li>Gestión de herencias</li>
                         </ul>
                     </article>
-                    
+
                     <!-- Servicio 5: Planes Exequiales -->
                     <article class="service-card service-card--featured">
                         <div class="service-card__badge">Más Popular</div>
                         <div class="service-card__icon">
-                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                                <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z"/>
-                                <path d="M9 12L11 14L15 10"/>
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" aria-hidden="true">
+                                <path d="M12 22C12 22 20 18 20 12V5L12 2L4 5V12C4 18 12 22 12 22Z" />
+                                <path d="M9 12L11 14L15 10" />
                             </svg>
                         </div>
                         <h3 class="service-card__title">Planes Exequiales</h3>
                         <p class="service-card__description">
-                            Planes de previsión exequial que permiten a las familias 
-                            prepararse con anticipación, evitando preocupaciones 
+                            Planes de previsión exequial que permiten a las familias
+                            prepararse con anticipación, evitando preocupaciones
                             económicas en momentos difíciles.
                         </p>
                         <ul class="service-card__features">
@@ -393,8 +417,9 @@
                         </ul>
                         <a href="#planes" class="service-card__link">
                             Ver planes disponibles
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
                             </svg>
                         </a>
                     </article>
@@ -414,12 +439,12 @@
                     <span class="section-header__label">Proteja a su familia</span>
                     <h2 class="section-header__title">Planes Exequiales</h2>
                     <p class="section-header__description">
-                        Elija el plan que mejor se adapte a las necesidades de su 
-                        familia. Todos nuestros planes incluyen atención inmediata 
+                        Elija el plan que mejor se adapte a las necesidades de su
+                        familia. Todos nuestros planes incluyen atención inmediata
                         y acompañamiento integral.
                     </p>
                 </header>
-                
+
                 <!-- Grid de planes -->
                 <div class="plans__grid">
                     <!-- Plan Básico -->
@@ -435,45 +460,51 @@
                         </div>
                         <ul class="plan-card__features">
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Servicio de velación (12 horas)
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Cofre estándar
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Carroza fúnebre
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Trámites legales básicos
                             </li>
                             <li class="plan-card__feature plan-card__feature--excluded">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M18 6L6 18M6 6l12 12"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path d="M18 6L6 18M6 6l12 12" />
                                 </svg>
                                 Cremación
                             </li>
                             <li class="plan-card__feature plan-card__feature--excluded">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M18 6L6 18M6 6l12 12"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path d="M18 6L6 18M6 6l12 12" />
                                 </svg>
                                 Traslado nacional
                             </li>
                         </ul>
                         <a href="#contacto" class="plan-card__btn">Solicitar información</a>
                     </article>
-                    
+
                     <!-- Plan Familiar (Destacado) -->
                     <article class="plan-card plan-card--featured">
                         <div class="plan-card__badge">Más Elegido</div>
@@ -488,45 +519,51 @@
                         </div>
                         <ul class="plan-card__features">
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Servicio de velación (24 horas)
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Cofre premium
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Carroza y vehículo acompañante
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Trámites legales completos
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Opción de cremación
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Cubre hasta 6 personas
                             </li>
                         </ul>
                         <a href="#contacto" class="plan-card__btn plan-card__btn--featured">Solicitar información</a>
                     </article>
-                    
+
                     <!-- Plan Premium -->
                     <article class="plan-card">
                         <header class="plan-card__header">
@@ -540,38 +577,44 @@
                         </div>
                         <ul class="plan-card__features">
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Todo lo del Plan Familiar
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Traslado nacional incluido
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Sala VIP exclusiva
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Arreglos florales premium
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Apoyo psicológico familiar
                             </li>
                             <li class="plan-card__feature plan-card__feature--included">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                                    <path d="M20 6L9 17l-5-5"/>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5" />
                                 </svg>
                                 Cubre hasta 10 personas
                             </li>
@@ -579,10 +622,10 @@
                         <a href="#contacto" class="plan-card__btn">Solicitar información</a>
                     </article>
                 </div>
-                
+
                 <!-- Nota adicional -->
                 <p class="plans__note">
-                    * Todos los planes incluyen cobertura inmediata después del período de carencia. 
+                    * Todos los planes incluyen cobertura inmediata después del período de carencia.
                     Consulte condiciones específicas con nuestros asesores.
                 </p>
             </div>
@@ -601,21 +644,23 @@
                     <span class="section-header__label">Estamos para ayudarle</span>
                     <h2 class="section-header__title">Contáctenos</h2>
                     <p class="section-header__description">
-                        Nuestro equipo está disponible las 24 horas para atender 
+                        Nuestro equipo está disponible las 24 horas para atender
                         sus necesidades. No dude en comunicarse con nosotros.
                     </p>
                 </header>
-                
+
                 <div class="contact__content">
                     <!-- Información de contacto -->
                     <div class="contact__info">
                         <h3 class="contact__info-title">Información de Contacto</h3>
-                        
+
                         <!-- Teléfono -->
                         <div class="contact__info-item">
                             <div class="contact__info-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                                 </svg>
                             </div>
                             <div>
@@ -623,29 +668,32 @@
                                 <p>Línea de emergencia: 313 880 4425</p>
                             </div>
                         </div>
-                        
+
                         <!-- WhatsApp -->
                         <div class="contact__info-item">
                             <div class="contact__info-icon contact__info-icon--whatsapp">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                                 </svg>
                             </div>
                             <div>
                                 <strong>WhatsApp</strong>
                                 <p>313 880 4425</p>
-                                <a href="https://wa.me/573138804425" target="_blank" rel="noopener noreferrer" class="contact__whatsapp-link">
+                                <a href="https://wa.me/573138804425" target="_blank" rel="noopener noreferrer"
+                                    class="contact__whatsapp-link">
                                     Escribir por WhatsApp
                                 </a>
                             </div>
                         </div>
-                        
+
                         <!-- Dirección -->
                         <div class="contact__info-item">
                             <div class="contact__info-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                    <circle cx="12" cy="10" r="3"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
                             <div>
@@ -654,13 +702,15 @@
                                 <p>Tibu, Norte De Santader, Colombia</p>
                             </div>
                         </div>
-                        
+
                         <!-- Correo -->
                         <div class="contact__info-item">
                             <div class="contact__info-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
                                 </svg>
                             </div>
                             <div>
@@ -668,13 +718,14 @@
                                 <p>contacto@funerarialacandelaria.com</p>
                             </div>
                         </div>
-                        
+
                         <!-- Horario -->
                         <div class="contact__info-item">
                             <div class="contact__info-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                    <circle cx="12" cy="12" r="10"/>
-                                    <polyline points="12 6 12 12 16 14"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
                                 </svg>
                             </div>
                             <div>
@@ -684,63 +735,41 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!-- Formulario de contacto -->
                     <form class="contact__form" id="contactForm" novalidate>
                         <h3 class="contact__form-title">Envíenos un Mensaje</h3>
-                        
+
                         <!-- Campo: Nombre -->
                         <div class="form-group">
                             <label for="nombre" class="form-label">
                                 Nombre Completo <span class="form-required">*</span>
                             </label>
-                            <input 
-                                type="text" 
-                                id="nombre" 
-                                name="nombre" 
-                                class="form-input" 
-                                placeholder="Ingrese su nombre completo"
-                                required
-                                minlength="3"
-                                autocomplete="name"
-                            >
+                            <input type="text" id="nombre" name="nombre" class="form-input"
+                                placeholder="Ingrese su nombre completo" required minlength="3" autocomplete="name">
                             <span class="form-error" id="nombreError"></span>
                         </div>
-                        
+
                         <!-- Campo: Teléfono -->
                         <div class="form-group">
                             <label for="telefono" class="form-label">
                                 Teléfono <span class="form-required">*</span>
                             </label>
-                            <input 
-                                type="tel" 
-                                id="telefono" 
-                                name="telefono" 
-                                class="form-input" 
-                                placeholder="Ej: 313 880 4425"
-                                required
-                                pattern="[0-9\s\-\+]{7,15}"
-                                autocomplete="tel"
-                            >
+                            <input type="tel" id="telefono" name="telefono" class="form-input"
+                                placeholder="Ej: 313 880 4425" required pattern="[0-9\s\-\+]{7,15}" autocomplete="tel">
                             <span class="form-error" id="telefonoError"></span>
                         </div>
-                        
+
                         <!-- Campo: Email -->
                         <div class="form-group">
                             <label for="email" class="form-label">
                                 Correo Electrónico
                             </label>
-                            <input 
-                                type="email" 
-                                id="email" 
-                                name="email" 
-                                class="form-input" 
-                                placeholder="ejemplo@correo.com"
-                                autocomplete="email"
-                            >
+                            <input type="email" id="email" name="email" class="form-input"
+                                placeholder="ejemplo@correo.com" autocomplete="email">
                             <span class="form-error" id="emailError"></span>
                         </div>
-                        
+
                         <!-- Campo: Asunto -->
                         <div class="form-group">
                             <label for="asunto" class="form-label">
@@ -756,42 +785,37 @@
                             </select>
                             <span class="form-error" id="asuntoError"></span>
                         </div>
-                        
+
                         <!-- Campo: Mensaje -->
                         <div class="form-group form-group--full">
                             <label for="mensaje" class="form-label">
                                 Mensaje <span class="form-required">*</span>
                             </label>
-                            <textarea 
-                                id="mensaje" 
-                                name="mensaje" 
-                                class="form-input form-textarea" 
-                                placeholder="Escriba su mensaje aquí..."
-                                required
-                                minlength="10"
-                                rows="5"
-                            ></textarea>
+                            <textarea id="mensaje" name="mensaje" class="form-input form-textarea"
+                                placeholder="Escriba su mensaje aquí..." required minlength="10" rows="5"></textarea>
                             <span class="form-error" id="mensajeError"></span>
                         </div>
-                        
+
                         <!-- Botón de envío -->
                         <div class="form-group form-group--full">
                             <button type="submit" class="form-submit" id="submitBtn">
                                 <span class="form-submit__text">Enviar Mensaje</span>
                                 <span class="form-submit__loading" aria-hidden="true">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 12a9 9 0 1 1-6.219-8.56" />
                                     </svg>
                                     Enviando...
                                 </span>
                             </button>
                         </div>
-                        
+
                         <!-- Mensaje de éxito -->
                         <div class="form-success" id="formSuccess" aria-live="polite">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
                             </svg>
                             <div>
                                 <strong>¡Mensaje enviado!</strong>
@@ -817,12 +841,14 @@
                 <!-- Columna 1: Logo e información -->
                 <div class="footer__brand">
                     <a href="#inicio" class="footer__logo">
-                        <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5" fill="none"/>
-                            <path d="M20 8C20 8 15 12 15 18C15 24 20 32 20 32C20 32 25 24 25 18C25 12 20 8 20 8Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-                            <circle cx="20" cy="14" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/>
-                            <path d="M14 20H26" stroke="currentColor" stroke-width="1.5"/>
-                            <path d="M12 36L20 32L28 36" stroke="currentColor" stroke-width="1.5" fill="none"/>
+                        <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5" fill="none" />
+                            <path d="M20 8C20 8 15 12 15 18C15 24 20 32 20 32C20 32 25 24 25 18C25 12 20 8 20 8Z"
+                                stroke="currentColor" stroke-width="1.5" fill="none" />
+                            <circle cx="20" cy="14" r="3" stroke="currentColor" stroke-width="1.5" fill="none" />
+                            <path d="M14 20H26" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M12 36L20 32L28 36" stroke="currentColor" stroke-width="1.5" fill="none" />
                         </svg>
                         <div class="footer__logo-text">
                             <span class="footer__logo-name">Funeraria</span>
@@ -830,11 +856,11 @@
                         </div>
                     </a>
                     <p class="footer__quote">
-                        "En la luz de la Virgen del Carmen encontramos consuelo y esperanza. 
+                        "En la luz de la Virgen del Carmen encontramos consuelo y esperanza.
                         Acompañamos a su familia con fe y amor."
                     </p>
                 </div>
-                
+
                 <!-- Columna 2: Enlaces rápidos -->
                 <div class="footer__links">
                     <h4 class="footer__title">Enlaces Rápidos</h4>
@@ -846,7 +872,7 @@
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Columna 3: Servicios -->
                 <div class="footer__links">
                     <h4 class="footer__title">Servicios</h4>
@@ -858,7 +884,7 @@
                         <li><a href="#planes">Planes Exequiales</a></li>
                     </ul>
                 </div>
-                
+
                 <!-- Columna 4: Contacto y redes -->
                 <div class="footer__contact">
                     <h4 class="footer__title">Contacto</h4>
@@ -866,36 +892,42 @@
                         <p>Calle 10 # 5-23, Centro</p>
                         <p>BTibu, Norte De Santader, Colombia</p>
                         <p><a href="tel:+573138804425">(313) 880 4425</a></p>
-                        <p><a href="mailto:contacto@funerarialacandelaria.com">contacto@funerarialacandelaria.com</a></p>
+                        <p><a href="mailto:contacto@funerarialacandelaria.com">contacto@funerarialacandelaria.com</a>
+                        </p>
                     </address>
-                    
+
                     <!-- Redes sociales -->
                     <div class="footer__social">
-                        <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank"
+                            rel="noopener noreferrer">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                             </svg>
                         </a>
-                        <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                             </svg>
                         </a>
-                        <a href="https://wa.me/573138804425" class="footer__social-link footer__social-link--whatsapp" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/573138804425" class="footer__social-link footer__social-link--whatsapp"
+                            aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                             </svg>
                         </a>
                     </div>
                 </div>
             </div>
-            
+
             <!-- Línea divisoria y copyright -->
             <div class="footer__bottom">
                 <p class="footer__copyright">
-                    &copy; <span id="currentYear"></span> Casa De Funeraria La Candelaria. 
+                    &copy; <span id="currentYear"></span> Casa De Funeraria La Candelaria.
                     Todos los derechos reservados.
                 </p>
                 <p class="footer__blessing">
@@ -910,15 +942,11 @@
         - Siempre visible para contacto rápido
         - Animación de pulso sutil
         =========================================== -->
-    <a 
-        href="https://wa.me/573138804425?text=Hola,%20me%20gustaría%20obtener%20información%20sobre%20sus%20servicios." 
-        class="whatsapp-btn" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        aria-label="Contactar por WhatsApp"
-    >
+    <a href="https://wa.me/573138804425?text=Hola,%20me%20gustaría%20obtener%20información%20sobre%20sus%20servicios."
+        class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
         </svg>
         <span class="whatsapp-btn__tooltip">¿Necesita ayuda?</span>
     </a>
@@ -926,4 +954,5 @@
     <!-- JavaScript principal -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
