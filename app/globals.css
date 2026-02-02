@@ -1,0 +1,168 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ===========================================
+   FUNERARIA LA CANDELARIA - VARIABLES CSS
+   Paleta de colores definida según la identidad visual
+   =========================================== */
+
+:root {
+  /* Colores principales de la funeraria */
+  --funeraria-azul: #0B2C4D;      /* Azul oscuro - color principal */
+  --funeraria-blanco: #FFFFFF;     /* Blanco */
+  --funeraria-dorado: #C9A24D;     /* Dorado suave - acentos */
+  --funeraria-gris: #F2F2F2;       /* Gris claro - fondos secundarios */
+  --funeraria-gris-oscuro: #6B7280; /* Gris para textos secundarios */
+  
+  /* Tokens semánticos basados en la paleta */
+  --background: #FFFFFF;
+  --foreground: #0B2C4D;
+  --card: #FFFFFF;
+  --card-foreground: #0B2C4D;
+  --popover: #FFFFFF;
+  --popover-foreground: #0B2C4D;
+  --primary: #0B2C4D;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F2F2F2;
+  --secondary-foreground: #0B2C4D;
+  --muted: #F2F2F2;
+  --muted-foreground: #6B7280;
+  --accent: #C9A24D;
+  --accent-foreground: #0B2C4D;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #C9A24D;
+  --chart-1: #0B2C4D;
+  --chart-2: #C9A24D;
+  --chart-3: #6B7280;
+  --chart-4: #F2F2F2;
+  --chart-5: #1E3A5F;
+  --radius: 0.5rem;
+  --sidebar: #0B2C4D;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #C9A24D;
+  --sidebar-primary-foreground: #0B2C4D;
+  --sidebar-accent: #1E3A5F;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #1E3A5F;
+  --sidebar-ring: #C9A24D;
+}
+
+@theme inline {
+  /* Tipografías: Playfair Display para títulos, Roboto para cuerpo */
+  --font-sans: 'Roboto', 'Roboto Fallback', sans-serif;
+  --font-serif: 'Playfair Display', 'Playfair Display Fallback', serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+  
+  /* Colores personalizados de la funeraria */
+  --color-funeraria-azul: var(--funeraria-azul);
+  --color-funeraria-blanco: var(--funeraria-blanco);
+  --color-funeraria-dorado: var(--funeraria-dorado);
+  --color-funeraria-gris: var(--funeraria-gris);
+  --color-funeraria-gris-oscuro: var(--funeraria-gris-oscuro);
+  
+  /* Mapeo de tokens semánticos */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* ===========================================
+   ESTILOS BASE
+   =========================================== */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Scroll suave para navegación interna */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* ===========================================
+   ANIMACIONES SUAVES Y DISCRETAS
+   =========================================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s ease-in-out infinite;
+}
