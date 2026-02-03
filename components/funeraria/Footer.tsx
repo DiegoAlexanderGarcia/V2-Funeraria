@@ -58,7 +58,7 @@ export function Footer() {
             {/* Logo */}
             <div className="flex items-center gap-3 mb-6">
               <Image
-                src="/img/logo-virgen-removebg-preview.png"
+                src="/img/logo-virgen-1.png"
                 alt="Logo Funeraria La Candelaria"
                 width={56}
                 height={56}

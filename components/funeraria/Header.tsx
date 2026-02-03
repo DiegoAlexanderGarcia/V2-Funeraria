@@ -62,7 +62,7 @@ export function Header() {
             {/* Icono representativo de la Virgen del Carmen */}
             
               <Image
-                src="/img/logo-virgen-removebg-preview.png"
+                src="/img/logo-virgen-1.png"
                 alt="Ícono de la Virgen del Carmen"
                 width={48}
                 height={48}
