@@ -14,6 +14,7 @@
    =========================================== */
 
 import { Facebook, Instagram, Heart } from "lucide-react"
+import Image from "next/image"
 
 // Enlaces de navegación del footer
 const footerLinks = {
@@ -56,21 +57,17 @@ export function Footer() {
           <div className="lg:col-span-1">
             {/* Logo */}
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
-                <svg
-                  viewBox="0 0 40 40"
-                  className="w-8 h-8 text-primary"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <circle cx="20" cy="10" r="6" />
-                  <path d="M12 18 C12 18, 14 16, 20 16 C26 16, 28 18, 28 18 L30 38 L10 38 Z" />
-                  <path d="M15 22 L25 22 L24 32 L16 32 Z" opacity="0.3" />
-                </svg>
-              </div>
+              <Image
+                src="/img/logo-virgen-removebg-preview.png"
+                alt="Logo Funeraria La Candelaria"
+                width={56}
+                height={56}
+                className="w-14 h-14 object-contain flex-shrink-0"
+                priority
+              />
               <div>
                 <span className="font-serif text-xl font-bold text-primary-foreground block">
-                  Funeraria
+                  Casa De Funeraria
                 </span>
                 <span className="font-serif text-sm text-accent">
                   La Candelaria

@@ -789,7 +789,7 @@ button {
 
 .services {
     padding: var(--space-20) 0;
-    background-color: var(--color-primary);
+    background-image: url(../img/hero.jpg);
 }
 
 .services__container {

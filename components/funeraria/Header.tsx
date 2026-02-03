@@ -15,6 +15,7 @@
    =========================================== */
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
@@ -49,33 +50,29 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-primary shadow-lg"
-          : "bg-primary/95"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
+        ? "bg-primary shadow-lg"
+        : "bg-primary/95"
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo y nombre de la funeraria */}
           <a href="#inicio" className="flex items-center gap-3 group">
             {/* Icono representativo de la Virgen del Carmen */}
-            <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center transition-transform group-hover:scale-105">
-              <svg
-                viewBox="0 0 40 40"
-                className="w-8 h-8 text-primary"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                {/* Silueta estilizada de la Virgen */}
-                <circle cx="20" cy="10" r="6" />
-                <path d="M12 18 C12 18, 14 16, 20 16 C26 16, 28 18, 28 18 L30 38 L10 38 Z" />
-                <path d="M15 22 L25 22 L24 32 L16 32 Z" opacity="0.3" />
-              </svg>
-            </div>
+            
+              <Image
+                src="/img/logo-virgen-removebg-preview.png"
+                alt="Ícono de la Virgen del Carmen"
+                width={48}
+                height={48}
+                priority
+                className="w-12 h-12 object-contain"   // Cambio de w-8 h-8 a w-12 h-12
+              />
+            
             <div className="flex flex-col">
               <span className="font-serif text-xl md:text-2xl font-bold text-primary-foreground leading-tight">
-                Funeraria
+                Casa De Funeraria
               </span>
               <span className="font-serif text-sm md:text-base text-accent font-medium">
                 La Candelaria
@@ -99,11 +96,11 @@ export function Header() {
           {/* Botón de llamada rápida (desktop) */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="tel:+573001234567"
+              href="tel:+573138804425"
               className="flex items-center gap-2 text-accent hover:text-accent/80 transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">300 123 4567</span>
+              <span className="text-sm font-medium">313 880 4425</span>
             </a>
             <Button
               asChild
@@ -127,9 +124,8 @@ export function Header() {
 
         {/* Menú móvil */}
         <nav
-          className={`lg:hidden overflow-hidden transition-all duration-300 ${
-            isMenuOpen ? "max-h-96 pb-6" : "max-h-0"
-          }`}
+          className={`lg:hidden overflow-hidden transition-all duration-300 ${isMenuOpen ? "max-h-96 pb-6" : "max-h-0"
+            }`}
           aria-label="Navegación móvil"
         >
           <div className="flex flex-col gap-4">
@@ -148,7 +144,7 @@ export function Header() {
               className="flex items-center gap-2 text-accent py-2"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">300 123 4567</span>
+              <span className="font-medium">313 880 4425</span>
             </a>
           </div>
         </nav>

@@ -21,7 +21,7 @@ export function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false)
   
   // Número de WhatsApp (reemplazar con el real)
-  const whatsappNumber = "573001234567"
+  const whatsappNumber = "573138804425"
   const whatsappMessage = encodeURIComponent(
     "Hola, me gustaría obtener información sobre los servicios de Funeraria La Candelaria."
   )

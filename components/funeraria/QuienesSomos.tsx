@@ -13,6 +13,7 @@
    =========================================== */
 
 import { Heart, Eye, Star, Users } from "lucide-react"
+import Image from "next/image"
 
 // Definición de los valores institucionales
 const valores = [
@@ -73,21 +74,21 @@ export function QuienesSomos() {
             </h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Funeraria La Candelaria nació hace más de tres décadas con la vocación 
-                de servir a las familias de nuestra comunidad en los momentos más 
-                difíciles. Bajo la protección de la Virgen del Carmen, símbolo de fe 
-                y consuelo, hemos construido una tradición de servicio basada en el 
+                Funeraria La Candelaria nació hace más de tres décadas con la vocación
+                de servir a las familias de nuestra comunidad en los momentos más
+                difíciles. Bajo la protección de la Virgen del Carmen, símbolo de fe
+                y consuelo, hemos construido una tradición de servicio basada en el
                 respeto, la dignidad y el acompañamiento espiritual.
               </p>
               <p>
-                Nuestro equipo está conformado por profesionales comprometidos que 
-                entienden la importancia de brindar un servicio humano y cálido. 
-                Sabemos que cada familia es única, por eso personalizamos cada 
+                Nuestro equipo está conformado por profesionales comprometidos que
+                entienden la importancia de brindar un servicio humano y cálido.
+                Sabemos que cada familia es única, por eso personalizamos cada
                 servicio para honrar la memoria de su ser querido de manera especial.
               </p>
               <p>
-                A lo largo de los años, hemos acompañado a miles de familias, 
-                convirtiéndonos en un referente de confianza y excelencia en 
+                A lo largo de los años, hemos acompañado a miles de familias,
+                convirtiéndonos en un referente de confianza y excelencia en
                 servicios funerarios en nuestra región.
               </p>
             </div>
@@ -100,19 +101,15 @@ export function QuienesSomos() {
               <div className="absolute inset-0 bg-primary/5" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center p-8">
-                  <div className="w-24 h-24 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
-                    <svg
-                      viewBox="0 0 60 60"
-                      className="w-16 h-16 text-accent"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <circle cx="30" cy="15" r="9" />
-                      <path d="M18 27 C18 27, 21 24, 30 24 C39 24, 42 27, 42 27 L45 57 L15 57 Z" />
-                      <path d="M22.5 33 L37.5 33 L36 48 L24 48 Z" opacity="0.3" />
-                      {/* Aureola */}
-                      <ellipse cx="30" cy="8" rx="12" ry="3" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.6" />
-                    </svg>
+                  <div className="w-86 h-86 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
+                    <Image
+                      src="/img/Virgen_del_Carmen-removebg-preview.png"
+                      alt="Ícono de la Virgen del Carmen"
+                      width={235}
+                      height={235}
+                      className="object-contain"
+                      priority
+                    />
                   </div>
                   <p className="font-serif text-xl text-foreground italic">
                     &ldquo;Bajo la protección de la Virgen del Carmen&rdquo;

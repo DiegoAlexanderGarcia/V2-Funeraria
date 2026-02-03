@@ -2,7 +2,7 @@ import React from "react"
 import type { Metadata, Viewport } from 'next'
 import { Playfair_Display, Roboto } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import './globals.css' 
 
 /* ===========================================
    CONFIGURACIÓN DE FUENTES

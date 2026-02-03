@@ -1,22 +1,22 @@
 /* ===========================================
-   COMPONENTE: SERVICIOS
-   Listado de servicios funerarios disponibles
-   
-   Estructura:
-   - Velación
-   - Traslados
-   - Cremación
-   - Asesoría legal
-   - Planes exequiales
-   
-   Cada servicio incluye:
-   - Ícono representativo
-   - Título
-   - Descripción clara
-   
-   Mejoras posibles:
-   - Añadir página de detalle por servicio
-   - Incluir galería de instalaciones
+    COMPONENTE: SERVICIOS
+    Listado de servicios funerarios disponibles
+    
+    Estructura:
+    - Velación
+    - Traslados
+    - Cremación
+    - Asesoría legal
+    - Planes exequiales
+    
+    Cada servicio incluye:
+    - Ícono representativo
+    - Título
+    - Descripción clara
+    
+    Mejoras posibles:
+    - Añadir página de detalle por servicio
+    - Incluir galería de instalaciones
    =========================================== */
 
 import { 

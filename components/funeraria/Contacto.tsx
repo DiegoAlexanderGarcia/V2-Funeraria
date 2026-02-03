@@ -43,8 +43,8 @@ const contactInfo = [
   {
     icon: Phone,
     titulo: "Teléfono",
-    info: "+57 300 123 4567",
-    link: "tel:+573001234567",
+    info: "+57 313 880 4425",
+    link: "tel:+573138804425",
   },
   {
     icon: Mail,
@@ -215,16 +215,18 @@ export function Contacto() {
               ))}
             </div>
 
-            {/* Mapa placeholder */}
-            <div className="aspect-video rounded-lg overflow-hidden bg-muted relative">
-              <div className="absolute inset-0 flex items-center justify-center bg-primary/5">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-accent mx-auto mb-2" aria-hidden="true" />
-                  <p className="text-muted-foreground text-sm">
-                    Centro Histórico, Bogotá
-                  </p>
-                </div>
-              </div>
+            {/* Mapa de Google */}
+            <div className="aspect-video rounded-lg overflow-hidden bg-muted">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d389.70660023515757!2d-72.73803356218019!3d8.636682785602806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sco!4v1770080316737!5m2!1ses!2sco"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de Funeraria La Candelaria"
+              />
             </div>
           </div>
 

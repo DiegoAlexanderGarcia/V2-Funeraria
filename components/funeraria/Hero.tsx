@@ -74,9 +74,9 @@ export function Hero() {
               size="lg"
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground px-8 py-6 text-lg bg-transparent"
             >
-              <a href="tel:+573001234567" className="flex items-center gap-2">
+              <a href="tel:+573138804425" className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Llamar: 300 123 4567
+                Llamar: 313 880 4425
               </a>
             </Button>
           </div>

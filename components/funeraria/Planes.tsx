@@ -15,6 +15,7 @@
 
 import { Check, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 // Definición de los planes exequiales
 const planes = [
@@ -72,10 +73,19 @@ export function Planes() {
   return (
     <section
       id="planes"
-      className="py-20 md:py-28 bg-primary"
+      className="relative py-20 md:py-28"
       aria-labelledby="planes-titulo"
     >
-      <div className="container mx-auto px-4">
+      <Image
+        src="/img/hero.jpg"
+        alt="Fondo decorativo para la sección de planes"
+        fill
+        className="object-cover object-center brightness-75"
+        priority
+      />
+      <div className="absolute inset-0 bg-primary/60" aria-hidden="true" />
+
+      <div className="container mx-auto px-4 relative z-10">
         {/* Encabezado de sección */}
         <div className="text-center mb-16">
           <span className="text-accent font-medium text-sm uppercase tracking-widest">
