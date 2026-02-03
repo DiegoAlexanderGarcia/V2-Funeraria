@@ -28,24 +28,24 @@ const roboto = Roboto({
    =========================================== */
 
 export const metadata: Metadata = {
-  title: 'Funeraria La Candelaria | Servicios Funerarios con Respeto y Dignidad',
-  description: 'Funeraria La Candelaria ofrece servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual. Velación, cremación, traslados y planes exequiales en Colombia.',
+  title: 'Casa De Funeraria La Candelaria | Servicios Funerarios con Respeto y Dignidad',
+  description: 'Casa De Funeraria La Candelaria ofrece servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual. Velación, cremación, traslados y planes exequiales en Colombia.',
   keywords: 'funeraria, servicios funerarios, velación, cremación, traslados, planes exequiales, Colombia, La Candelaria',
-  authors: [{ name: 'Funeraria La Candelaria' }],
-  creator: 'Funeraria La Candelaria',
-  publisher: 'Funeraria La Candelaria',
+  authors: [{ name: 'Casa De Funeraria La Candelaria' }],
+  creator: 'Casa De Funeraria La Candelaria',
+  publisher: 'Casa De Funeraria La Candelaria',
   robots: 'index, follow',
   openGraph: {
     type: 'website',
     locale: 'es_CO',
     url: 'https://funerarialacandelaria.com',
-    siteName: 'Funeraria La Candelaria',
-    title: 'Funeraria La Candelaria | Servicios Funerarios con Respeto y Dignidad',
+    siteName: 'Casa De Funeraria La Candelaria',
+    title: 'Casa De Funeraria La Candelaria | Servicios Funerarios con Respeto y Dignidad',
     description: 'Servicios funerarios integrales con respeto, dignidad y acompañamiento espiritual.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Funeraria La Candelaria',
+    title: 'Casa De Funeraria La Candelaria',
     description: 'Servicios funerarios integrales con respeto y dignidad.',
   },
     generator: 'DiegoTec',
