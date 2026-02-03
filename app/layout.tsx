@@ -5,9 +5,9 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css' 
 
 /* ===========================================
-   CONFIGURACIÓN DE FUENTES
-   - Playfair Display: Títulos elegantes
-   - Roboto: Texto legible y moderno
+    CONFIGURACIÓN DE FUENTES
+    - Playfair Display: Títulos elegantes
+    - Roboto: Texto legible y moderno
    =========================================== */
 
 const playfairDisplay = Playfair_Display({ 
@@ -24,7 +24,7 @@ const roboto = Roboto({
 })
 
 /* ===========================================
-   METADATOS SEO OPTIMIZADOS
+    METADATOS SEO OPTIMIZADOS
    =========================================== */
 
 export const metadata: Metadata = {
