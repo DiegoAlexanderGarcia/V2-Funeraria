@@ -35,6 +35,9 @@ export const metadata: Metadata = {
   creator: 'Casa De Funeraria La Candelaria',
   publisher: 'Casa De Funeraria La Candelaria',
   robots: 'index, follow',
+  verification: {
+    google: 'dii81_ywse6JdfxyogIHZNp0VzWCL7N-V39l4bBwd_Y',
+  },
   openGraph: {
     type: 'website',
     locale: 'es_CO',

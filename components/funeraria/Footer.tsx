@@ -137,7 +137,7 @@ export function Footer() {
             <h3 className="font-serif text-lg font-semibold mb-6">Contacto</h3>
             <address className="not-italic space-y-3 text-sm text-primary-foreground/70">
               <p>Calle 10 #5-23, Centro Histórico</p>
-              <p>Bogotá, Colombia</p>
+              <p>Tibu, Norte De Santander, Colombia</p>
               <p>
                 <a href="tel:+573138804425" className="hover:text-accent transition-colors">
                   +57 313 880 4425
@@ -161,7 +161,7 @@ export function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/50 text-sm text-center md:text-left">
-              © {currentYear} Funeraria La Candelaria. Todos los derechos reservados.
+              © {currentYear} Casa De Funeraria La Candelaria. Todos los derechos reservados.
             </p>
             <p className="text-primary-foreground/50 text-sm flex items-center gap-1">
               Hecho con <Heart className="w-4 h-4 text-accent" aria-hidden="true" /> en Colombia
