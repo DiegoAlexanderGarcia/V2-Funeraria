@@ -34,7 +34,6 @@ export const metadata: Metadata = {
   authors: [{ name: 'Casa De Funeraria La Candelaria' }],
   creator: 'Casa De Funeraria La Candelaria',
   publisher: 'Casa De Funeraria La Candelaria',
-  robots: 'index, follow',
   verification: {
     google: 'dii81_ywse6JdfxyogIHZNp0VzWCL7N-V39l4bBwd_Y',
   },

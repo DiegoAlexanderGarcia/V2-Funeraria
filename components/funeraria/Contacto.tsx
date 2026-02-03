@@ -55,7 +55,7 @@ const contactInfo = [
   {
     icon: MapPin,
     titulo: "Dirección",
-    info: "Calle 10 #5-23, Centro Histórico, Bogotá",
+    info: "calle 6 N° 10-104 B. San Martin, Tibu, Norte de Santander, Colombia",
     link: "https://maps.google.com",
   },
   {
