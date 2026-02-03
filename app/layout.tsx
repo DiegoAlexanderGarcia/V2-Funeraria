@@ -48,7 +48,12 @@ export const metadata: Metadata = {
     title: 'Funeraria La Candelaria',
     description: 'Servicios funerarios integrales con respeto y dignidad.',
   },
-    generator: 'v0.app'
+    generator: 'DiegoTec',
+    icons: {
+      icon: '/img/logo-virgen.ico',
+      shortcut: '/img/logo-virgen.ico',
+      apple: '/img/logo-virgen-1.png',
+    },
 }
 
 export const viewport: Viewport = {

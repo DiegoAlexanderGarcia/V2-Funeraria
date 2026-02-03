@@ -218,7 +218,7 @@ export function Contacto() {
             {/* Mapa de Google */}
             <div className="aspect-video rounded-lg overflow-hidden bg-muted">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d389.70660023515757!2d-72.73803356218019!3d8.636682785602806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sco!4v1770080316737!5m2!1ses!2sco"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d779.4133928441852!2d-72.73824947916157!3d8.636589680811847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6729006bb1f2e5%3A0x61acf925553cf1fa!2scasa%20de%20funeraria%20la%20candelaria!5e1!3m2!1ses!2sco!4v1770136240277!5m2!1ses!2sco"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

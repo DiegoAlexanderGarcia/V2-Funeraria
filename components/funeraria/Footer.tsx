@@ -139,8 +139,8 @@ export function Footer() {
               <p>Calle 10 #5-23, Centro Histórico</p>
               <p>Bogotá, Colombia</p>
               <p>
-                <a href="tel:+573001234567" className="hover:text-accent transition-colors">
-                  +57 300 123 4567
+                <a href="tel:+573138804425" className="hover:text-accent transition-colors">
+                  +57 313 880 4425
                 </a>
               </p>
               <p>
