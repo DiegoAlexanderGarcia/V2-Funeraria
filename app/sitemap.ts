@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://funerarialacandelaria.com'
+    const baseUrl = 'https://casa-de-funeraria-la-candelaria.netlify.app/'
 
     return [
         {
